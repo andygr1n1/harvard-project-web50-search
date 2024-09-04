@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Magic google search</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script defer type="module" src="./scripts/index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="/pages/imgSearch.html">Image Search</a>
+        <a href="/pages/advancedSearch.html">Advanced Search</a>
+    </div>
+    <div class="search-container">
+        <img src="./public/paris-olympic.gif" alt="Olympic games" style="width: 100%; max-width: 500px;" />
+        <form action="https://www.google.com/search" class="search-form">
+            <div class="input-container">
+                <span class="material-symbols--search icon search-icon"></span>
+                <input id="search-input" type="text" name="q" class="input-container-search-bar" placeholder="" />
+                <span id="close-icon" title="clear" class="line-md--close icon close-icon"></span>
+            </div>
+            <div class="buttons">
+                <input role="button" value="Google Search" class="submit" aria-label="Google Search" tabindex="0"
+                    type="submit"></input>
+                <input id="lucky-btn" role="button" value="I’m Feeling Lucky" type="submit" class="submit"
+                    tabindex="0"></input>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

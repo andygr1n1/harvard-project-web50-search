@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Magic google search</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <script defer type="module" src="../scripts/index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="../index.html">Search</a>
+    </div>
+    <div class="advanced-search-heading"><label>Advanced Search</label></div>
+    <div class="advanced-search-form-container">
+        <div class="advanced-search-input-container form-title">
+            <div class="asic-label form-title">Find pages with...</div>
+            <div class="asic-description form-title">To do this in the search box.</div>
+        </div>
+        <form action="https://www.google.com/search" class="advanced-search-form">
+            <!-- 1 -->
+            <div class="advanced-search-input-container">
+                <div class="asic-label">all these words:</div>
+                <input class="asic-input" type="text" name="as_q">
+                <div class="asic-description">Type the important words: tri-colour rat terrier
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="advanced-search-input-container">
+                <div class="asic-label">this exact word or phrase:</div>
+                <input class="asic-input" type="text" name="as_epq">
+                <div class="asic-description">Put exact words in quotes: "rat terrier"</div>
+            </div>
+            <!-- 3 -->
+            <div class="advanced-search-input-container">
+                <div class="asic-label">any of these words:</div>
+                <input class="asic-input" type="text" name="as_oq">
+                <div class="asic-description">Type OR between all the words you want: miniature OR standard</div>
+            </div>
+            <!-- 4 -->
+            <div class="advanced-search-input-container">
+                <div class="asic-label">none of these words:</div>
+                <input class="asic-input" type="text" name="as_eq">
+                <div class="asic-description">Put a minus sign just before words that you don't want: -rodent, -"Jack
+                    Russell"</div>
+            </div>
+            <div class="advanced-search-input-container">
+                <div class="asic-label"></div>
+                <div class="asic-input asic-submit"><input role="button" value="Advanced Search"
+                        class="extended-search-submit" aria-label="Advanced Search" tabindex="0" type="submit"></input>
+
+                </div>
+                <div class="asic-description"></div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
