@@ -18,13 +18,14 @@
             <div class="input-container">
                 <span class="material-symbols--search icon search-icon"></span>
                 <input id="search-input" type="text" name="q" class="input-container-search-bar" placeholder="" />
+                <input id="lucky-input" type="hidden" name="btnI" value="1" />
                 <span id="close-icon" title="clear" class="line-md--close icon close-icon"></span>
             </div>
-            <div class="buttons">
-                <input role="button" value="Google Search" class="submit" aria-label="Google Search" tabindex="0"
+            <div class="buttons" id="buttons-container">
+                <input id="simple-search-btn" role="button" value="Google Search" class="submit" aria-label="Google Search" tabindex="0"
                     type="submit"></input>
-                <input id="lucky-btn" role="button" value="I’m Feeling Lucky" type="submit" class="submit"
-                    tabindex="0"></input>
+                <input id="lucky-btn" role="button" value="I’m Feeling Lucky" class="submit"
+                    aria-label="I’m Feeling Lucky" tabindex="0" type="submit"></input>
             </div>
         </form>
     </div>

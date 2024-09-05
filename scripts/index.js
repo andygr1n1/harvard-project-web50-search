@@ -1,2 +1,2 @@
-import './cleanParams.js'
+import './luckyTrigger.js'
 import './clearInputWithClearBtn.js'
